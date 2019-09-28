@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Travelog</title>
+    <description>Make the footer happy by entering a short description about yourself here</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 28 Sep 2019 21:09:59 +0800</pubDate>
+    <lastBuildDate>Sat, 28 Sep 2019 21:09:59 +0800</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>The Travelog Theme</title>
+        <description>&lt;p&gt;Travelog is a theme for Jekyll that is both elegant and downright simple.&lt;/p&gt;
+
+&lt;p&gt;In addition to being devilishly handsome, it is responsive down to mobile and has a very light footprint. Travelog lends itself well to photography and travel journaling.&lt;/p&gt;
+
+&lt;p&gt;Like a backpack with too many straps, a blog can sometimes be frustrating when it has too many bells and whistles. It is with that philosophy that I have put together this theme so that you might drown in its whitespace.&lt;/p&gt;
+
+&lt;div class=&quot;post-image&quot;&gt;
+    &lt;img src=&quot;http://placehold.it/885x500&quot; /&gt;
+    &lt;p class=&quot;post-image-caption&quot;&gt;Using a little bit of markup, you can add beautiful captions to your totally beautiful pictures. Amazing.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;post-image post-image--split&quot;&gt;
+    &lt;a href=&quot;#&quot;&gt;
+        &lt;img src=&quot;http://placehold.it/435x500&quot; /&gt;
+    &lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;
+        &lt;img src=&quot;http://placehold.it/435x500&quot; /&gt;
+    &lt;/a&gt;
+    &lt;p class=&quot;post-image-caption&quot;&gt;
+    	&lt;span class=&quot;post-image-caption-left&quot;&gt;
+    		Expanding on this, you can show two images side-by-side
+    	&lt;/span&gt;
+    	&lt;span class=&quot;post-image-caption-right&quot;&gt;
+    		And even define separate captions for each.
+    	&lt;/span&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The code can be found on Github &lt;a href=&quot;https://github.com/rowanoulton/travelog-theme&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Any questions, get at me on Twitter: &lt;a href=&quot;https://twitter.com/rowanoulton/&quot;&gt;@rowanoulton&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 Aug 2014 01:39:55 +0800</pubDate>
+        <link>http://localhost:4000/auckland,/new-zealand/2014/08/13/the-travelog-theme/</link>
+        <guid isPermaLink="true">http://localhost:4000/auckland,/new-zealand/2014/08/13/the-travelog-theme/</guid>
+        
+        <category>auckland</category>
+        
+        <category>new-zealand</category>
+        
+        
+        <category>auckland,</category>
+        
+        <category>new-zealand</category>
+        
+      </item>
+    
+  </channel>
+</rss>
