@@ -3,7 +3,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://sustar.cloud
+url: https://pierceming.github.io/pierce.github.io
 date_format: "ordinal"
 title: 微观漫步
 subtitle: "相信技术的力量"
