@@ -99,14 +99,14 @@ gitment:
     owner: Pierce明
     repo: blog-comments
     oauth:
-        client_id: 421b71406bd52befc4bb
-        client_secret: 347a6c4ce6119bb3bb205074eb087300e8bfc139
+        client_id: 3afb3df165d78c6dec4a
+        client_secret: 205c07cfea4edc1cda2987672410c8eea75d78ab
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: Pierce明
     repo: blog-comments
-    clientID: 421b71406bd52befc4bb
-    clientSecret: 347a6c4ce6119bb3bb205074eb087300e8bfc139
+    clientID: 3afb3df165d78c6dec4a
+    clientSecret: 205c07cfea4edc1cda2987672410c8eea75d78ab
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
