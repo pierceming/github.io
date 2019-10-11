@@ -1,4 +1,12 @@
-# Spring注解开发之@bean
+---
+layout: post
+title: spring ioc注入之单实例
+categories: Spring
+description: spring ioc注入之单实例
+keywords: Spring注解开发, ioc, @bean
+---
+
+spring ioc注入之单实例
 
 ## 1, spring ioc注入之单实例
 
