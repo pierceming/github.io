@@ -98,7 +98,7 @@ disqus:
 gitment:
     owner: pierceming
     repo: sustar.git.comments
-    id: location.pathname
+    id: window.location.pathname
     oauth:
         client_id: 3afb3df165d78c6dec4a
         client_secret: 205c07cfea4edc1cda2987672410c8eea75d78ab
@@ -106,7 +106,7 @@ gitment:
 gitalk:
     owner: pierceming
     repo: sustar.git.comments
-    id: location.pathname
+    id: window.location.pathname
     clientID: 3afb3df165d78c6dec4a
     clientSecret: 205c07cfea4edc1cda2987672410c8eea75d78ab
 # 在使用其它评论组件时可点击显示 Disqus
