@@ -1,16 +1,18 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 相信技术的力量
+keywords: Piere Ming, sustar，微观漫步
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+我是皮尔斯-明，冲破一切束缚，换取美好明天。
 
-仰慕「优雅编码的艺术」。
+我是微观漫步，我相信真正的美和浪漫存在于细微之处，我愿意与你一起去发现。
+
+仰慕「设计的艺术」，便只好将编码作为工具，励志成为一个designer。
 
 坚信熟能生巧，努力改变人生。
 
