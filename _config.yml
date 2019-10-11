@@ -96,15 +96,15 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: Pierce明
-    repo: blog-comments
+    owner: pierceming
+    repo: sustar.git.comments
     oauth:
         client_id: 3afb3df165d78c6dec4a
         client_secret: 205c07cfea4edc1cda2987672410c8eea75d78ab
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: Pierce明
-    repo: blog-comments
+    owner: pierceming
+    repo: sustar.git.comments
     clientID: 3afb3df165d78c6dec4a
     clientSecret: 205c07cfea4edc1cda2987672410c8eea75d78ab
 # 在使用其它评论组件时可点击显示 Disqus
