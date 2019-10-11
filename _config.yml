@@ -3,7 +3,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://pierceming.github.io/pierce.github.io
+url: https://pierceming.github.io
 date_format: "ordinal"
 title: 微观漫步
 subtitle: "相信技术的力量"
@@ -82,7 +82,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: pierceming/pierce.github.io
+repository: pierceming/pierceming.github.io
 
 # ---------------- #
 #      Comments    #
