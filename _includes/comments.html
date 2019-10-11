@@ -93,7 +93,7 @@
 		<script type="text/javascript" src="/assets/js/md5.min.js"></script>
         <script>
         var gitalk = new Gitalk({
-            id: md5(window.location.pathname),
+            id: md5(location.pathname),
             clientID: '{{ site.gitalk.clientID }}',
             clientSecret: '{{ site.gitalk.clientSecret }}',
             repo: '{{ site.gitalk.repo }}',
