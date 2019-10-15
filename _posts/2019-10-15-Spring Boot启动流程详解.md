@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SpringBoot启动流程详细分析
-categories: vue
+categories: SpringBoot
 description: SpringBoot启动流程详细分析
 keywords: SpringBoot, SpringBoot启动流程, 微服务
 ---
