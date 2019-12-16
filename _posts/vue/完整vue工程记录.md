@@ -1,0 +1,117 @@
+---
+layout: post
+title: 完整vue工程记录
+categories: vue
+description: 完整vue工程记录
+keywords: vue
+---
+
+## 1，搭建脚手架
+
+![https://pierceming.github.io/images/vue/29.png](D:\software\piercespage\pierce.github.io\images\vue\29.png)
+
+2，新建自己的路由组件index.vue，并引入组成整个页面的组要组件部分title.vue,content.vue,menu.vue
+
+![https://pierceming.github.io/images/vue/30.png](D:\software\piercespage\pierce.github.io\images\vue\30.png)
+
+3, 在index.vue中引用这些组件
+
+```vue
+<!--  -->
+<template>
+  <div class="myapp">   // 使用组件
+      <app-title></app-title>
+      <app-content></app-content>
+      <app-menu></app-menu>
+  </div>
+</template>
+
+<script>
+import AppTitle from '../components/AppTitle'    // 引入组件
+import AppContent from '../components/AppContent'
+import AppMenu from '../components/AppMenu'
+export default {
+    components:{   //注入组件
+        AppTitle,
+        AppContent,
+        AppMenu
+    }
+}
+</script>
+<style lang='scss' rel='stylesheet/scss' scoped></style>
+```
+
+4， 给3个组要组件添加些样式，让其在页面上展示
+
+5，配置路由组件
+
+```js
+// 1, 引入vue
+import Vue from 'vue'
+// 2, 引入路由资源
+import Router from 'vue-router'
+// 3, 挂载路由
+Vue.use(Router)
+// 4, 配置路由
+const routes = [
+    {
+        path: '/',
+        redirect:'/my-app'
+    },
+    {
+        path:'/my-app',
+        component:() => import('../views/index.vue'),
+        children:[
+            {
+                path:'',
+                component:()=> import('../components/AppContent.vue')
+            }
+        ]
+    }
+]
+
+const router = new Router({
+    routes
+})
+
+export default router
+```
+
+6，在main.js中挂载路由
+
+```js
+import Vue from 'vue'
+import App from './App.vue'
+import router from './router'
+import store from './store'
+
+Vue.config.productionTip = false
+
+new Vue({
+  router,
+  store,
+  render: h => h(App)
+}).$mount('#app')
+```
+
+7, 引入全局样式reset.scss
+
+8, 使用vue中mixin机制，管理服用的css样式
+
+9，在global中引用管理的scss机制
+
+10，安装scss加载器和渲染器
+
+11，设置全局字体样式
+
+12，使用vuex进行组件间通信
+
+13，使用vuex中模块功能，进行代码模块化管理
+
+14，使用vuex中mixin机制进行方法的复用管理
+
+15，使用常量管理机制，管理系统中设置的常量
+
+16，使用缓存机制，对web数据进行缓存
+
+17，使用国际化组件对系统进行国际化管理

@@ -159,3 +159,15 @@ java -jar xxxx.jar --spring.profiles.active=dev
 vm params : -Dspring.profiles.active = dev
 ```
 
+@Conditional派生注解
+
+自动配置类生效的条件
+
+在配置文件中debug = true 属性，就能很方便的知道哪些自动配置类生效了；
+
+
+
+
+
+SpringBoot使用日志系统
+

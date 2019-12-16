@@ -1,0 +1,45 @@
+---
+layout: post
+title: vue中web字体的使用
+categories: vue
+description: vue中web字体的使用
+keywords: vue，web字体
+---
+
+web字体是css3中web设计的一种特性，使用@font-face规则用来实现自定义字体，在此之前，web用户只能使用在计算机中安装好的字体，通过css3，web设计师可以应用他们喜欢的任意web字体，通过互联网就可以加载自己的web字体
+
+1，将自己字体文件拷贝的工程路径中
+
+![https://pierceming.github.io/images/vue/25.png](D:\software\piercespage\pierce.github.io\images\vue\25.png)
+
+2，在工程中使用web字体
+
+在main.js中引入字体样式即可
+
+```js
+import Vue from 'vue'
+import App from './App.vue'
+import router from './router'
+import store from './store'
+import './assets/styles/icon.css'
+import './assets/fonts/daysOne.css'
+
+Vue.config.productionTip = false
+
+new Vue({
+  router,
+  store,
+  render: h => h(App)
+}).$mount('#app')
+```
+
+3, 测试
+
+启用字体
+
+![https://pierceming.github.io/images/vue/26.png](D:\software\piercespage\pierce.github.io\images\vue\26.png)
+
+未启用字体：
+
+![https://pierceming.github.io/images/vue/27.png](D:\software\piercespage\pierce.github.io\images\vue\27.png)
+
