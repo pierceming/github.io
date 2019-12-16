@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
 
-![https://pierceming.github.io/images/vue/28.png](D:\software\piercespage\pierce.github.io\images\vue\28.png)
+![](https://pierceming.github.io/images/vue/28.png)
 
 
 
